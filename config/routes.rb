@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get 'song/index'
-  root 'song#index'
+  resources :songs, only: [:index, :new, :create, :show]
+
+  root 'songs#index'
 end
