@@ -1,24 +1,17 @@
-# README
+# Favorite Song List Maker
+## Practice Rails Application
+  By: John Espinosa 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Install Instructions
 
-* Ruby version
 
-* System dependencies
+### Purpose
+  The purpose of this application is for a user to be able to create lists of their favorite songs. 
 
-* Configuration
+### Features
+  CRUD favorite songs.
 
-* Database creation
+### License
+  This project is being created open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
