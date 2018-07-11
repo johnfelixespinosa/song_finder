@@ -1,13 +1,30 @@
 <section class="todoapp">
-			<header class="header">
-				<h1>Fav-songs</h1>
-				<input class="new-todo" placeholder="What song r u thinking" autofocus="">
-			</header>
 
-			<%# <section class="main" style="display: block;">
-				<input class="toggle-all" type="checkbox">
-				<label for="toggle-all">Mark all as complete</label>
-				<ul class="todo-list"><li data-id="1531260054782" class=""><div class="view"><input class="toggle" type="checkbox"><label>finish learn.co</label><button class="destroy"></button></div></li></ul>
-			</section> %>
+  <header class="header">
+    <h1>Fav-songs</h1>
+    <input class="new-todo" placeholder="What song r u thinking" autofocus="">
+  </header>
 
-		</section>
+
+    <section class="main">
+    <input class="toggle-all" type="checkbox">
+    <label for="toggle-all">Mark all as complete</label>
+      <ul class="todo-list">
+        <%= @songs.each do |song| %>
+          
+          <li>
+            <div class="view">
+              <input class="toggle" type="checkbox">
+                <label><%= song.name %></label>
+                  <button class="destroy"></button>
+            </div>
+          </li>
+        
+        <% end %>
+
+      </ul>
+    </section>
+    
+
+
+</section>

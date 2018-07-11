@@ -1,0 +1,1 @@
+1. Add song to favorite songs list
